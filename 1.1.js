@@ -12,6 +12,7 @@ console.log(newArrayDeclarative); // Output: [1, 4, 9, 16, 25]
 
 
 
+
 // Imperative function
 const mapArrayImperative = (arr, callback) => {
   const result = [];
