@@ -12,7 +12,6 @@ function flattenArray(nestedArray) {
   }
 
   flatten(nestedArray);
-
   return result;
 }
 
