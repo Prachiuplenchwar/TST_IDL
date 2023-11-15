@@ -5,4 +5,4 @@ const notFoundObject = new Proxy({}, {
 });
 console.log(notFoundObject.someProperty);
 console.log(notFoundObject.anotherProperty);
-console.log(notFoundObject.anyPropertyYouAccess);
+console.log(notFoundObject.anyProperty);
