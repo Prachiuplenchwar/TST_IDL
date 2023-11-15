@@ -3,7 +3,6 @@ const notFoundObject = new Proxy({}, {
     return "404";
   },
 });
-
 console.log(notFoundObject.someProperty);
 console.log(notFoundObject.anotherProperty);
 console.log(notFoundObject.anyPropertyYouAccess);
